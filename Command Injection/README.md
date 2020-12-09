@@ -188,6 +188,7 @@ w^h^o^am^i
 #### Bypass with %256 in cmd
 
 ```fl%256ag
+file:///fl%256ag
 ```
 
 
