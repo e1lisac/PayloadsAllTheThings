@@ -185,6 +185,11 @@ w`h`o`am`i
 ```powershell
 w^h^o^am^i
 ```
+#### Bypass with %256 in cmd
+
+```fl%256ag
+```
+
 
 
 ## Challenge
