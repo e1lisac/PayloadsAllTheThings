@@ -468,7 +468,8 @@ WHERE -> HAVING
 ```
 
 multipart form data to bypass waf 
-```Content-Type: multipart/form-data; boundary=---------------------------974767299852498929531610575
+```
+Content-Type: multipart/form-data; boundary=---------------------------974767299852498929531610575
 
 Content-Length: 366
 
@@ -486,7 +487,8 @@ Content-Type: text/plain
 
 (content of the uploaded file foo.txt)
 
------------------------------974767299852498929531610575--``` 
+-----------------------------974767299852498929531610575--
+``` 
 
 Information_schema.tables Alternative
 
