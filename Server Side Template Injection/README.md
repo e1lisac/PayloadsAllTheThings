@@ -345,6 +345,10 @@ http://localhost:5000/?exploit={{request|attr([request.args.usc*2,request.args.c
 {{request|attr("__class__")}}
 {{request.__class__}}
 ```
+Bypassing `{{` and `}}`
+```python
+{% print(expression) %} instead of {{expression}}
+```
 
 Bypassing `[` and `]`
 
