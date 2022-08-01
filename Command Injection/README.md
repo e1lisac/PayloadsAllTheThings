@@ -266,7 +266,9 @@ echo 'YOURCMD/*$(sleep 5)`sleep 5``*/-sleep(5)-'/*$(sleep 5)`sleep 5` #*/-sleep(
 ```
 ## Readfile
 花式读文件
-
+```
+m4 *
+```
 
 ## References
 
