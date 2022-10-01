@@ -18,12 +18,12 @@
   * [Basic injection](#basic-injection)
   * [Template format](#template-format)
   * [Code execution](#code-execution)
-* [JavaScript - Lessjs](#lessjs)
-    * [Jade (NodeJS)](#Jade-(NodeJS))
-    * [Handlebars (NodeJS)](#Handlebars (NodeJS))
-    * [JsRender (NodeJS)](#JsRender (NodeJS))
-    * [PugJs (NodeJS)](#PugJs (NodeJS))
-    * [NUNJUCKS (NodeJS)](#NUNJUCKS (NodeJS))
+* [JavaScript](#JavaScript)
+    * [Jade (NodeJS)](#Jade-NodeJS)
+    * [Handlebars (NodeJS)](#Handlebars-NodeJS)
+    * [JsRender (NodeJS)](#JsRender-NodeJS)
+    * [PugJs (NodeJS)](#PugJs-NodeJS)
+    * [NUNJUCKS (NodeJS)](#NUNJUCKS-NodeJS)
 * [Smarty](#smarty)
 * [Freemarker](#freemarker)
   * [Basic injection](#basic-injection)
@@ -156,6 +156,7 @@ $output = $twig > render (
 {{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("id")}}
 ```
 
+## Javascript
 ### Jade (NodeJS)
 
 ```javascript
